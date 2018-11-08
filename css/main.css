@@ -1,0 +1,47 @@
+html {
+  box-sizing: border-box;
+  font-family: Merriweather, serif;
+  line-height: 1.5;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: flex;
+  width: 40px;
+}
+
+header {
+  background-color:#d05c2e;
+  color: #fff;
+}
+
+h1 {
+  font-size: 2rem;
+  text-align: center;
+}
+
+ul {
+  text-align: center;
+  text-decoration: none;
+  list-style-type: none;
+  padding: .2em;
+  padding-bottom: 0;
+  color: #fff;
+  margin: 0;
+}
+
+li {
+  display: inline-flex;
+}
+
+a:hover {
+  background-color: #a63f38;
+  color: #fff;
+}
